@@ -4,31 +4,7 @@ if os.name == 'posix':
     os.system('clear')
 elif os.name == 'nt':
     os.system('cls')    
-    
-bl = '\033[1;34m'
-rd = '\033[91m'
-wt = '\033[0m'
-yl = '\033[1;33m'
-gr = '\033[1;32m'
-def heads2():
-    h = {
-      "content-length": "1000000000000000000",
-      "connection": "keep-alive",
-      "user-agent": "GoogleBot V3",
-      "x-forwarded-from": "0.0.0.0",
-      "content-type": "application/xml",
-      "set-cookie": "v=xxxxXxxxxxx;&vx=#xxxxxxxxxxxxxxxx0x;;d;"
-    }
-    return h
-def data():
-    data = {
-      "X": "xXxxX",
-      "Y": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-      "Z": "ZzzzZzzzzZzzzZzZZzZzzZzzZZZzzZ",
-      "1": "111111111111111111111111111111"
-    }
-    return data    
-def main():
+
      _.u[[/;:,.         .odMMMMMM'
               .o888UU[[[/;:-.  .o@P^    MMM^
              oN88888UU[[[/;::-.        dP^
