@@ -29,12 +29,24 @@ def data():
     }
     return data    
 def main():
-    if os.name == 'posix':
-        os.system('clear')
-    elif os.name == 'nt':
-        os.system('cls')   
-    print('Welcome To Starlink Flood !')
-    print("\t\tType 'help' for help\n")
+     _.u[[/;:,.         .odMMMMMM'
+              .o888UU[[[/;:-.  .o@P^    MMM^
+             oN88888UU[[[/;::-.        dP^
+            dNMMNN888UU[[[/;:--.   .o@P^
+           ,MMMMMMN888UU[[/;::-. o@^
+           NNMMMNN888UU[[[/~.o@P^
+           888888888UU[[[/o@^-..
+          oI8888UU[[[/o@P^:--..
+       .@^  YUU[[[/o@^;::---..
+     oMP     ^/o@P^;:::---..
+  .dMMM    .o@^ ^;::---...
+ dMMMMMMM@^`       `^^^^
+YMMMUP^
+              Skyline C2
+                   V : 1.2
+              MADE BY : Putra
+             since  : 2023-2024
+                   "help"      
 def help():
     if os.name == 'posix':
         os.system('clear')
